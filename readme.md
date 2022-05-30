@@ -1,12 +1,12 @@
 # Curso de azure de inovacion virtual
 
-El objetivo de este curso es conocer los servicions de Microsoft Azure.
+El objetivo de este curso es conocer los servicios de Microsoft Azure.
 
 ## Aspectos basicos de Azure
 
 En este modulo se repasa o se introduce que es o que son los servicios de la nube y la nube. Se marca cuales son las categorias o bloques generales de los servicion un ejemplo seria servicios de IoT, Servicios de almacenamiento y bases de datos
 
-Se diferencia los metodos para crear una suscripcion de azure
+Se diferencia los métodos para crear una suscripcion de azure
 
 ## 2.- Conceptos Fundamentales de Azure
 
@@ -30,3 +30,40 @@ Recursos
 En este modulo se aprendio que son las suscripciones y grupos de administracion de azure
 tambien que que son los recurso de azure, los grupos de recursos y azure resource manager
 asi como las regiones de azure peres de regiones y zonas de disponibilidad.
+
+## Exploracion de servicios de azure compute
+
+Una VM es un ambiente corriendo dentro de ambiente o una computadora corriendo dentro de otra computadora
+
+    En una VM se tiene control total del OS
+    Puede ejecutar software personalizado
+    Usar configuraciones de hospedaje personalizado
+
+### Conjuntos de escaldo de VM
+
+    Es un grupo de VM que se puede extender o disminuir dependiendo de la necesidad
+
+### Azure AppService
+
+    Es un servicio que te permite alojar tu aplicacion ya sea Web, API, trabajo o movil y esta se ajusta a las necesidades, trabafico y demanda de servicios
+
+### Azure containers
+
+    A diferencia de las VMs los ocntenedeores no implican memoria, cpu solamente el sistema operatico OS los contenedores se pueden usar con docker
+
+    Kubernetes es un orquestador de contenedores
+
+    Los microservicios son operaciones que se van ejecutando segun los mande a llamar kubernetes
+
+### Azure functions
+
+    Son implementaciones de azure sin servidor, son funciones que se ejecutan en muy poco tiempo realiznando solamente lo que se le indica a la funcion ejemplo una funcion de consulta
+    -Se escala controla por eventos
+    -Se tiene una microfacturacion solo se cobra por ejecucion y por tiempo de ejecucion
+    -Se usan para aplicaciones tipo REST
+
+### Azure virtual desktop
+
+    Es como un escritorio que todos conocemos pero esta disponible en linea y si tienes licensias de windows enterpice puedes usarlo entre y solo pagar por lo que se usa
+
+En conclusion en esta unidad se descubrienron algunos de los servicios mas a detalle y cuando usar cada uno de ellos un ejemplo de los vistos son las VMs, los sercios de azure functions y azure appservice
