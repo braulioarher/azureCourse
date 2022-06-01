@@ -85,3 +85,33 @@ Los tamannios de las instancias de VPN Gateway depende de la cantidad de datos q
 Te asigna una conexion directa a azure para estar mas seguro sin pasar por internet, literalmente te conectan con cable a la red de azure
 
 Usa una red primaria y secundaria por temas de redundancia
+
+## Servicios de Azure Storage
+
+### Azure Storage
+
+Se necesita una cuenta de Azure Storage
+
+### Disk Storage 
+
+Son los discos para las maquinas virtuales, hay de diferentes caracteristicas como SSD y HDD las maquinas virtuales pueden acceder a ellos segun su necesidad
+
+Es completamente una Iaas "Infrestructura como servicio"
+
+### Azure Blob Storage
+
+Una forma de almacenamiento para objetos se puede organizar en forma de contenedores y estas puden guargar grandes cantidades de datos sirve para streaming de audio y video, analisis de datos
+
+### Azure Files
+
+Funciona como una carpeta compartida
+
+### Niveles de acceso
+
+Segun la forma y la frecuencia a la que accedamos a nuestros archivos a estos se les deben de asignar un nivel de acceso existen tres niveles:
+        -   Nivel de accesso frecuente
+        -   Nivel de accesso esporadico: se alamcena por al menos de 30 dias
+        -   Nivel de accesso de archivo: raramente se acceden y se alamcenan por lo menos cada 180 dias
+
+Cada nivel de acceso tiene un procesamiento diferente y una facturacion diferente.
+
