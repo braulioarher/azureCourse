@@ -67,3 +67,21 @@ Una VM es un ambiente corriendo dentro de ambiente o una computadora corriendo d
     Es como un escritorio que todos conocemos pero esta disponible en linea y si tienes licensias de windows enterpice puedes usarlo entre y solo pagar por lo que se usa
 
 En conclusion en esta unidad se descubrienron algunos de los servicios mas a detalle y cuando usar cada uno de ellos un ejemplo de los vistos son las VMs, los sercios de azure functions y azure appservice
+
+## Servicios de red de azure
+
+Toda red vitual funciona como red fisica
+
+## VPN Gateway
+
+Una VPN es red privada virtual que integra una parte de seguridad sirve para cifrar informacion a travez de internet de esta forma mandar por conexion segura de forma cifrada
+
+Se usan para conectarse a redes locales solamente se manda por una vpn definida
+
+Los tamannios de las instancias de VPN Gateway depende de la cantidad de datos que se va a enviar
+
+## Azure ExpressRoute
+
+Te asigna una conexion directa a azure para estar mas seguro sin pasar por internet, literalmente te conectan con cable a la red de azure
+
+Usa una red primaria y secundaria por temas de redundancia
