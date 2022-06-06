@@ -146,3 +146,17 @@ Analisis y Macrodatos macrodatos se refiere a gran cantidad de datos, tiene vari
     Azure Data Lake: Prepara los datos para integrar la inteligencia artificial. Se puede hacer consulta para buscar relaciones entre datos
 
 ## Azure IoT
+
+    -IoT Hub: es un lugar donde podemos tener nuestro dispositivos concetrados en un solo lugar sirve para monitorear nuestros dispositivos. Automatizar la conexion y desconexion.
+    -IoT Central: Da las herramientas de aplicaciones ya elaboradas para ver cosas especificas.
+    -Azure Sphere: Sirve para conectar nuestros dispositivos de forma segura a Azure. Cuenta con un sistema operativo que corre una version de Linux personalizado
+
+En este modulo basicamente se vieron los tres servicios de internet of thigs que ofrece los cuales son IoT Hub, Iof Centra e IoT Sphere, cada uno con sus propias particularidades.
+
+## Opciones de inteligencia artificial de Azure
+
+A veces la inteligencia artificial solo se usa para automatizar procesos. Como por ejemplo re escribir un texto.
+
+    -Azure Machine Learning: plataforma para realizar predicciones, se puede insertar los datos para que los analice y cree una prediccion a este servicio se le debe de proveer de datos. Predice el fututo a partit de acciones anterirores
+    -Azure cognitive services: proporciona algoritmos creados previamente se accede a este servicio mediante una API, a diferencia de Azure Machine Learning este servicio no requiere que traiga sus propios datos.
+    -Azure Bot Service: Sirve para crear bots para poder comunicarse de forma inteligente con otros usuarios
