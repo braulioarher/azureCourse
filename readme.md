@@ -92,7 +92,7 @@ Usa una red primaria y secundaria por temas de redundancia
 
 Se necesita una cuenta de Azure Storage
 
-### Disk Storage 
+### Disk Storage
 
 Son los discos para las maquinas virtuales, hay de diferentes caracteristicas como SSD y HDD las maquinas virtuales pueden acceder a ellos segun su necesidad
 
@@ -115,3 +115,34 @@ Segun la forma y la frecuencia a la que accedamos a nuestros archivos a estos se
 
 Cada nivel de acceso tiene un procesamiento diferente y una facturacion diferente.
 
+## Practica  "Cracion de una logicApp"
+
+Un sistema contenerizado es un conjunto de recursos que funcionanentre si
+
+    -Se crea una logic dentro de un nuevo recurso app por cuestiones practicas
+
+Se creo una logic app la cual responde a un trigger que se puede escoger de diferentes medios como por ejemplo Microsoft forms,
+al recibir un trigger la logic app reacciona y ejecuta algo como por ejemplo enviar un correo electronicos
+
+## Servicios de analisis y bases de datos
+
+Azure Cosmos database es un servicio de base de datos distribuido global, un motor de base de datos que admite diversas tipo de base de datos como Maria DB, Mongo DB, etc.
+
+Azure SQL Database es la version de Azure de SQL Server es una PaaS (Plataforma como servicio) Azure tiene un servicio de apoyo para migrar los datos de una nube local a una nube publica para hacer la migracion mas simple
+
+Se pudo crear una base detos que contiene unas tablas de muestras se hizo una consulta donde se unen dos tablas donde el ID de un producto coicide
+
+MySQL es otro motor de base de datos LAMP (Linux, Apache, MySQL, PHP)
+
+PosrgreSQL es otro motor de base de datos tambien esta incluido en Azure se usa para base de datos que son muy grandes
+
+SQL Manage Instance hace mas facil la parte de migracion tiene las mismas caracteristicas que Azure SQL. A diferencia de Azure SQL,
+Azure Manage Instance ayuda mas a la parte de migracion.
+
+Analisis y Macrodatos macrodatos se refiere a gran cantidad de datos, tiene varios servicios como los son:
+
+    Azure Synapse Analitics: Tiene diferente fuente de datos y encapsula todas estas fuentes en dashboards para identificar patrones para su analisis.
+    Azure HDInsight: Es un servicio de codigo abierto, hace mas facil la integracion con otros servicios. Permite hacer las integracion dentro de Azure
+    Azure Data Lake: Prepara los datos para integrar la inteligencia artificial. Se puede hacer consulta para buscar relaciones entre datos
+
+## Azure IoT
