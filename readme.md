@@ -160,3 +160,12 @@ A veces la inteligencia artificial solo se usa para automatizar procesos. Como p
     -Azure Machine Learning: plataforma para realizar predicciones, se puede insertar los datos para que los analice y cree una prediccion a este servicio se le debe de proveer de datos. Predice el fututo a partit de acciones anterirores
     -Azure cognitive services: proporciona algoritmos creados previamente se accede a este servicio mediante una API, a diferencia de Azure Machine Learning este servicio no requiere que traiga sus propios datos.
     -Azure Bot Service: Sirve para crear bots para poder comunicarse de forma inteligente con otros usuarios
+
+## Tecnologias sin servidor
+
+Se usa para aplicaciones muy pequenias o cortas.
+
+Existen dos servicios de azure en formato ServerLess por un lado estan las funciones y por otro existen las Logic Apps
+
+    Functions: Una funcion que esta escrita en codog de cualquier lenguaje de programacion de uso popular que se puede escalar segun la demanda de esta funcion (Servicio informatico sin servidor) funciones de dure menos de 10s.
+    Logic App: una aplicacion que usa poco codigo para por desarrollarse (Servicio informatico de orquestacion).
