@@ -169,3 +169,60 @@ Existen dos servicios de azure en formato ServerLess por un lado estan las funci
 
     Functions: Una funcion que esta escrita en codog de cualquier lenguaje de programacion de uso popular que se puede escalar segun la demanda de esta funcion (Servicio informatico sin servidor) funciones de dure menos de 10s.
     Logic App: una aplicacion que usa poco codigo para por desarrollarse (Servicio informatico de orquestacion).
+
+## Herramientas para que las organizaciones creen mejores productos
+
+DevOps se refiere a operaciones de desarrollo (Develoment Operations), plan, code, build, test por la parte de desarrollo release, deploy, operate, monitor por parte de operacion
+
+    Los servicos que ofrece azure son:
+        -Azure DevOps: tiene todas las herramientas pra hacer el desarrollo
+        -GitHub: 
+
+## Herramientas Para administrar y configurar el entorno de azure
+
+Son herramientas para administrar nuestros servicios de Azure, permite ver como se esta comportando mis servicios, el performance, ver la arquitectura etcetera.
+
+    Azure Portal:   Sitio web de azure
+    La CLI  de azure: corre bach
+    Azure Mobil: Aplicacion movil de azure
+    Azure Resource Manager (ARM): Infrestuctura completa para administrar todo mediante reglas
+
+## Servicio de supervicion, informacion y mitigacion de interrupciones
+
+## Proteccion frente amenazas de seguridad de azure
+
+    Azure Security Center: Tiene diferentes herramientas pra supervisar y administrar seguridad, Proporciona recomendaciones segun las aplicaciones que se tengan. Azure security center permite activar el just in time service
+    Azure Sentinel: Vigila que las aplicaciones se este ejecutando de manera normal, recopila datos de la nube y con esto detecta si existe alguna anomalia.
+    Azure Key Vault: Proporciona un espacio para guardar contrsennias, certificados SSL, secretos, etc. Todo bajo a un cifrado muy fuerte.
+    Azure Dedicated Host: Se refiere a que podemos tener un servidor completo dedicado para nosotros
+
+## Conectividad de red segura en azure
+
+Azure cuenta con diferentes servicios de proteccion de red entre los que destaca:
+        -Azure Firewall:Azure Firewall es un servicio de seguridad de red administrado y basado en la nube que ayuda a proteger los recursos en las redes virtuales de Azure
+        -Azure DDoS protection:  Un ataque DDoS intenta sobrecargar y agotar los recursos de una aplicación, lo que provoca que la aplicación sea lenta o no responda a los usuarios legítimos.
+        -Grupos de seguridad (NSG Network Security Group): Un grupo de seguridad de red (NSG) le permite filtrar el tráfico de red desde y hacia los recursos de Azure dentro de una red virtual.
+
+En esta unida se creo una Maquina Virtual de Azure para hospedar un sitio web dentro de la maquina virtual que corria el sistema operativo Linux, se instalo un programa llamado Nginx que sirve como servidor de una pagina web, una vez creada la VM e instalado el programa se procedio a habilitar y declarar las reglas de seguridad para que este sitio web fuera accesible metiante el protocolo HTTP para poder visualizarlo a travez de nuestro navegador
+
+## Acceso Seguro a las aplicaciones de seguridad de Azure
+
+La autenticacion determina si el usuario es quien dice ser a travez de credenciales etc.
+
+La autorizacion es la forma de limitar a una persona autentificada establece a que datos puede acceder y que hacer con ellos
+
+Azure Active Directory
+
+## Creacion de una estrategia de gobernanza
+
+    -El control de acceso basado en roles de Azure (RBAC de Azure) permite crear roles que definen permisos de acceso.
+    -Los bloqueos de recursos impiden que se eliminen o modifiquen recursos por error.
+    -Las etiquetas de recursos proporcionan información extra, o metadatos, sobre los recursos.
+    -Azure Policy es un servicio de Azure que permite crear, asignar y administrar directivas que controlan o auditan los recursos.
+    -Azure Blueprints permite definir un conjunto repetible de herramientas de gobernanza y recursos de Azure estándar que la organización necesita.
+
+## Estándares de privacidad, cumplimiento y protección de datos en Azure
+
+La declaración de privacidad de Microsoft proporciona confianza en la forma en que Microsoft recopila, protege y usa los datos de los clientes.
+El Centro de confianza proporciona documentación sobre los estándares de cumplimiento y la manera en que Azure puede ayudar a su negocio.
+La documentación de cumplimiento de Azure incluye información detallada sobre el cumplimiento y los estándares legales y normativos en Azure.
